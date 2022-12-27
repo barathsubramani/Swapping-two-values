@@ -18,10 +18,18 @@ Print both the values it would be interchanged
 ### Step 6: 
 End the program
 ## PROGRAM:
+a = int(input())
+b = int(input())
+temp = a
+a = b
+b = temp
+print("Swapped values are:",a, b)
 
-
+## OUTPUT
+![Alt text](https://file%2B.vscode-resource.vscode-cdn.net/d%3A/academics/python%20prgs/Swapping-two-values/swapping%20variables.png?version%3D1672138489251)
 
 ## RESULT:
+
 Thus the swapping of two values are successfully executed
 
 
